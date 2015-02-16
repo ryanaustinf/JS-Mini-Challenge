@@ -1,0 +1,68 @@
+body {
+	font-family: Arial;
+	padding:0;
+	margin:0;
+}
+
+div#header {
+	width:96.5%;
+	height:5%;
+	position:relative;
+	padding:20px;
+}
+
+div#fields {
+	position:relative;
+	float:left;
+	padding:2px;
+}
+
+select#fruits {
+	background-color:black;
+	color:white;
+}
+
+input#count {
+	background-color:green;
+	color:white;
+}
+
+div#buttons {
+	position:absolute;
+	right:0;
+	padding:2px;
+}
+
+div#receipt {
+	background-color:#888888;
+	width:100%;
+	height:75%;
+	padding:5px 0;
+}
+
+div.fruit {
+	background-color:white;
+	color:#888888;
+	padding:20px;
+	margin:20px 0;
+}
+
+span.name, span.quantity, span.price {
+	padding: 5%;
+	color:black;
+}
+
+div#total {
+	background-color:green;
+	position:relative;
+	height:12.5%;
+}
+
+div#totalLabel {
+	color:white;
+	font-size:1.5em;
+	position:absolute;
+	bottom:7%;
+	right:0;
+	padding:20px;
+}
